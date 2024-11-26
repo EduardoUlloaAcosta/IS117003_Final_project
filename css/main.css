@@ -1,0 +1,233 @@
+/*DEVELOPER: Eduardo Ulloa Acosta, IS117-003, Fall, 2024 */
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+
+}
+a:focus, a:hover {
+	font-style: italic;
+    color: #0056b3;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(204, 231, 255);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: .9rem;
+}
+
+/* General card container styling */
+.card-container {
+    display: flex;             /* Enables Flexbox layout */
+    justify-content: space-between; /* Adds equal spacing between cards */
+    gap: 20px;                 /* Adds spacing between cards */
+    padding: 20px;             /* Adds padding around the container */
+    flex-wrap: nowrap;         /* Prevents wrapping, keeps cards in a single row */
+}
+
+/* Individual card styling (no changes from before) */
+.card {
+    width: 300px;              /* Fixed card width */
+    border: 1px solid #ddd;    /* Light border around the card */
+    border-radius: 8px;        /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow: hidden;          /* Ensures content stays within rounded edges */
+    background-color: #fff;    /* Card background color */
+}
+
+/* Image inside the card */
+.card-image {
+    width: 100%;               /* Ensures the image spans the full width of the card */
+    height: 200px;             /* Fixed height for the image */
+    object-fit: cover;         /* Ensures the image is scaled proportionally */
+}
+
+/* Card content styling (no changes) */
+.card-content {
+    padding: 15px;             /* Padding inside the card */
+}
+
+.card-title {
+    font-size: 18px;
+    margin: 0 0 10px;          /* Spacing below the title */
+    color: #333;               /* Darker text for the title */
+}
+
+.card-text {
+    font-size: 14px;
+    margin: 0 0 15px;          /* Spacing below the text */
+    color: #666;               /* Subtle gray text */
+}
+
+
+
+.card-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.mt-4 {
+    margin: 0 auto; /* Centers the div horizontally */
+    text-align: center; /* Centers the text content inside the div */
+
+}
+
+
+/*large card */
+.card-container-large {
+    display: flex;            
+    justify-content: space-between; 
+    gap: 20px;          
+    padding: 20px;          
+    flex-wrap: nowrap;        
+}
+
+
+.card-large {
+    width: 350px;              
+    border: 1px solid #ddd;    
+    border-radius: 8px;    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;         
+    background-color: #fff; 
+       /* Card background color */
+}
+
+/* Image inside the card */
+.card-image-large {
+    width: 100%;              
+    height: auto;           
+    object-fit: fill;         
+
+}
+
+/* Card content styling (no changes) */
+.card-content-large {
+    padding: 15px;             
+}
+.card-title-large {
+    font-size: 20px;
+    margin: 0 0 10px;          
+    color: #333;    
+    text-align: center;           
+}
+
+.card-text-large {
+    font-size: 14px;
+    margin: 0 0 15px;         
+    color: #666; 
+    text-align: center;             
+}
+
+
+.paragraph{
+    width: 900px;
+    border: 10px solid #0056b3;
+    border-radius: 40px;
+    padding: 25px;
+    margin: 20px;
+    font-size: medium;
+    
+}
+
+
+
+
+
+.card-tech-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+    justify-content: center;
+}
+
+.card-tech {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-image-tech {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+}
+
+.card-content-tech {
+    padding: 10px;
+    height:auto;
+
+}
+
+.card-title-tech {
+    font-size: 18px;
+    margin: 0 0 10px;          /* Spacing below the title */
+    color: #333;               /* Darker text for the title */
+
+}
+
+.card-text-tech {
+    font-size: 14px;
+    margin: 0 0 15px;          /* Spacing below the text */
+    color: #666;               /* Subtle gray text */
+
+}
+
+
+
+/*large card */
+.card-container-project {
+    display:flex;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content:space-between; 
+    gap: 20px;                
+    padding: 20px;             
+    flex-wrap:nowrap;         
+
+}
+
+
+.card-project {
+    width: 350px;      
+    border: 1px solid #ddd;   
+    border-radius: 8px;       
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;        
+    background-color: #fff; 
+    height:auto;
+       
+}
+
+
+.card-image-project {
+    width: 100%;            
+    height: auto;         
+    object-fit: fill;        
+
+}
+
+
+.card-content-project {
+    padding: 15px;             
+}
+.card-title-project {
+    font-size: 20px;
+    margin: 0 0 10px;      
+    color: #333;    
+    text-align: center;           
+}
+
+.card-text-project {
+    font-size: 14px;
+    margin: 0 0 15px;         
+    color: #666; 
+    text-align: center;             
+}
